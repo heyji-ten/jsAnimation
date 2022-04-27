@@ -1,0 +1,52 @@
+.header {
+    padding-top: 500px;
+    background-color: #000;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+  
+.path {
+    fill: none;
+    stroke: #f2f2f2;
+}
+  
+.path1 {
+    stroke-dasharray: 6884;
+    animation: drawPath1 1s linear, floating 2.2s linear infinite;
+}
+  
+.content1 {
+    background-color: #f1f1f1;
+    height: 488px;
+}
+
+.path2 {
+    stroke: #000;
+}
+
+.path3 {
+    stroke: #f1f1f1;
+}
+
+.content2 {
+    background-color: #000;
+    height: 1000px;
+}
+
+.cont {
+    width: 600px;
+}
+
+.content1, .content2 {
+    position: relative;
+}
+
+.content1 .cont {
+    position: absolute;
+    left: 45px;
+}
+
+.content2 .cont {
+    position: absolute;
+    left: 390px;
+}
